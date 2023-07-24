@@ -14,3 +14,11 @@
     justify-content: space-between;
     padding: 0 20rem
 }
+button {
+    padding: 30px 40px;
+    text-align:center;
+    background-color: #C7E9B0;
+    font-size: 20px;
+    font-style: bold;
+
+}
