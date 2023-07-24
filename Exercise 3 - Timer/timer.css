@@ -2,3 +2,15 @@
     color: red;
     font-size: 64px;
 }
+.timeer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20rem;
+}
+.btn{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20rem
+}

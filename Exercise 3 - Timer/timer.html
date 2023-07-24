@@ -9,10 +9,17 @@
 
     <h2>Exercise 3 - Timer</h2>
 
-    <div id="myTimer">
-        Your timer should go here!
+    <div id="myTimer" class="timeer">
+      <button onclick="ADDsecond()">+</button>
+      <h1 id="mytime" class="mytime">0</h1>
+      <button onclick="RemoveSeconds()">-</button> 
     </div>
-
+    <div class="btn">
+        <button id="startStopBtn" onclick="start()">Start</button>
+        <button  onclick="Reset()" >Reset</button>
+        <button onclick="stop()" >stop</button>
+    </div>
+       
     <script src="./timer.js"></script>
 
 </body>
